@@ -19,7 +19,7 @@ class Joueur: # Classe représentant un joueur avec son nom, sa main de cartes e
             self.credit -= int(nb)
             return True
         else:
-            print(f"Crédit insuffisant pour miser {nb} jetons")
+            print(f"votre crédit est insuffisant pour miser {nb} jetons")
             print(f"Votre crédit est de {self.credit}")
             return False
 
